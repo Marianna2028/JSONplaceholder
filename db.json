@@ -54,14 +54,14 @@
           "type": "image-selection",
           "instruction": "Choose a side",
           "imageOptions": [
-            { "label": "Fries", "url": "img/fries.jpg", "price": 2.00 },
-            { "label": "Onion Rings", "url": "img/onionrings.jpg", "price": 2.50 },
-            { "label": "Fountain Drink", "url": "img/soda.jpg", "price": 1.75 }
+            { "label": "Fries", "url": "fries.jpg", "price": 2.50 },
+            { "label": "Onion Rings", "url": "sodacup.jpg", "price": 1.50 }
           ]
         }
       ]
     }
   ]
 }
+
 
 
