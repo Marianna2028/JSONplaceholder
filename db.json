@@ -1,1 +1,57 @@
+{
+  "burgers": [
+    {
+      "id": "classic-beef",
+      "title": "Classic Beef Burger",
+      "basePrice": 6.99,
+      "steps": [
+        {
+          "id": "step1",
+          "type": "multiple-choice",
+          "instruction": "Choose your bun",
+          "options": [
+            { "label": "Regular", "price": 0.50 },
+            { "label": "Sesame", "price": 0.50 },
+            { "label": "Gluten-Free", "price": 1.00 },
+            { "label": "Lettuce Wrap", "price": 0.25 }
+          ]
+        },
+        {
+          "id": "step2",
+          "type": "multiple-choice",
+          "instruction": "Select your protein",
+          "options": [
+            { "label": "Beef", "price": 1.00 },
+            { "label": "Chicken", "price": 1.00 },
+            { "label": "Turkey", "price": 1.00 }
+          ]
+        },
+        {
+          "id": "step3",
+          "type": "multiple-choice",
+          "instruction": "Choose your toppings",
+          "options": [
+            { "label": "Lettuce", "price": 0 },
+            { "label": "Tomato", "price": 0 },
+            { "label": "Onion", "price": 0 },
+            { "label": "Pickles", "price": 0 },
+            { "label": "Cheese", "price": 0.75 },
+            { "label": "Avocado", "price": 1.50 },
+            { "label": "Bacon", "price": 1.00 }
+          ]
+        },
+        {
+          "id": "step4",
+          "type": "text",
+          "instruction": "Enter number of sauce servings",
+          "feedback": {
+            "condition": "amount > 3",
+            "message": "Too much sauce might overpower the flavor!"
+          }
+        }
+      ]
+    }
+  ]
+}
+
 
