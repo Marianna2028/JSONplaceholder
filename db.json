@@ -48,6 +48,16 @@
             "condition": "amount > 3",
             "message": "Too much sauce might overpower the flavor!"
           }
+        },
+        {
+          "id": "step5",
+          "type": "image-selection",
+          "instruction": "Choose a side",
+          "imageOptions": [
+            { "label": "Fries", "url": "img/fries.jpg", "price": 2.00 },
+            { "label": "Onion Rings", "url": "img/onionrings.jpg", "price": 2.50 },
+            { "label": "Fountain Drink", "url": "img/soda.jpg", "price": 1.75 }
+          ]
         }
       ]
     }
