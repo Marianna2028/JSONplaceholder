@@ -67,6 +67,7 @@
           "instruction": "Choose a side",
           "imageOptions": [
             { "label": "Fries", "url": "fries.jpg", "price": 2.50 },
+             { "label": "Curly Fries", "url": "curlyfries.jpg", "price": 2.50 },
             { "label": "Onion Rings", "url": "sodacup.jpg", "price": 1.50 }
           ]
         }
@@ -74,6 +75,3 @@
     }
   ]
 }
-
-
-
