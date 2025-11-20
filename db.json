@@ -42,6 +42,18 @@
         },
         {
           "id": "step4",
+          "type": "multiple-choice",
+          "instruction": "Choose your sauce",
+          "options": [
+            { "label": "Ketchup", "price": 0 },
+            { "label": "Mayo", "price": 0 },
+            { "label": "BBQ", "price": 0.25 },
+            { "label": "Chipotle", "price": 0.50 },
+            { "label": "Ranch", "price": 0.25 }
+          ]
+        },
+        {
+          "id": "step5",
           "type": "text",
           "instruction": "Enter number of sauce servings",
           "feedback": {
@@ -50,7 +62,7 @@
           }
         },
         {
-          "id": "step5",
+          "id": "step6",
           "type": "image-selection",
           "instruction": "Choose a side",
           "imageOptions": [
